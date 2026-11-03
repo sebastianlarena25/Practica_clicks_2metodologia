@@ -28,6 +28,7 @@
     document.getElementById("btn").addEventListener("click", () => {
       contador++;
       document.getElementById("contador").innerText = contador;
+      document.getElementById("hora").textContent = new Date().toLocaleTimeString();
     });
    let click = 0;
   </script>
@@ -35,6 +36,9 @@
 <p>Click: <span id="c">0</span></p>
   <button onclick="document.getElementById('c').innerText = ++click">Sumar</button>
   <button onclick="click = 0; document.getElementById('c').innerText = 0">Reiniciar</button>
+
+ <p>Último click: <span id="hora">---</span></p>
+ 
  
 </body>
 </html>
