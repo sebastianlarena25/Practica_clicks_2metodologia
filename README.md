@@ -1,2 +1,1 @@
-# Practica_clicks_2metodologia
-Practica sobre git gestion clicks 2º metodologia
+#_**Sarah Sebastian - Desarrollador A - Main**_
