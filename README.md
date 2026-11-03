@@ -1,1 +1,4 @@
-#_**Sarah Sebastian - Desarrollador A - Main**_
+\#***Sarah Sebastian - Desarrollador A - Main***
+
+\#***Alex Reyes - Desarrollador D - Desarrollo***
+
