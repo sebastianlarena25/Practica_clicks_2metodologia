@@ -18,7 +18,7 @@
         }
     </style>
 </head>
-
+<body>
   <h1>Contador de Clicks</h1>
   <button id="btn">Haz clic</button>
   <p id="contador">0</p>
@@ -29,6 +29,12 @@
       contador++;
       document.getElementById("contador").innerText = contador;
     });
+   let click = 0;
   </script>
+
+<p>Click: <span id="c">0</span></p>
+  <button onclick="document.getElementById('c').innerText = ++click">Sumar</button>
+  <button onclick="click = 0; document.getElementById('c').innerText = 0">Reiniciar</button>
+ 
 </body>
 </html>
