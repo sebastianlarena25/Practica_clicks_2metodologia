@@ -2,3 +2,4 @@
 
 \#***Alex Reyes - Desarrollador D - Desarrollo***
 
+\#***Jorge Calvo - Desarrollador B - Desarrollo***
