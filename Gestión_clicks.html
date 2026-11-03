@@ -19,26 +19,37 @@
     </style>
 </head>
 <body>
-  <h1>Contador de Clicks</h1>
+
+  <h1>Contador de Clicks Alex Reyes, Jorge Calvo, Loubna Mechnane, Sarah Sebastian</h1>
   <button id="btn">Haz clic</button>
   <p id="contador">0</p>
 
   <script>
     let contador = 0;
+
     document.getElementById("btn").addEventListener("click", () => {
       contador++;
       document.getElementById("contador").innerText = contador;
-      document.getElementById("hora").textContent = new Date().toLocaleTimeString();
     });
-   let click = 0;
   </script>
 
-<p>Click: <span id="c">0</span></p>
-  <button onclick="document.getElementById('c').innerText = ++click">Sumar</button>
-  <button onclick="click = 0; document.getElementById('c').innerText = 0">Reiniciar</button>
+  <p id="hora"></p>
 
- <p>Último click: <span id="hora">---</span></p>
- 
- 
+  <script>
+    document.getElementById("btn").addEventListener("click", () => {
+
+      const ahora = new Date();
+      document.getElementById("hora").innerText = "Último clic: " + ahora.toLocaleTimeString();
+    });
+  </script>
+
+  <button id="reset">Reiniciar</button>
+
+  <script>
+    document.getElementById("reset").addEventListener("click", () => {
+      contador = 0;
+      document.getElementById("contador").innerText = contador;
+    });
+  </script>
 </body>
 </html>
